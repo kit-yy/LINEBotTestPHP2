@@ -33,3 +33,4 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 ));
 $result = curl_exec($ch);
 curl_close($ch);
+?>
